@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ludo.css">
+</head>
+<body>
+    <!-- <audio id='audio' src="joueur/Omany pb.mp3" ></audio> -->
+    
+    <div id='demena'> <img class='imde'src="joueur/de.png" alt=""></div>
+    <div id='demanga'> <img class='imde'src="joueur/de.png" alt=""> </div>
+    <div id='demaintso'>  <img class='imde'src="joueur/de.png" alt=""></div>
+    <div id='demavo'>  <img class='imde'src="joueur/de.png" alt=""> </div>
+   
+    <table border="2" id='tab1'>
+        <tr>
+            <td class="route" id='0'></td>
+            <td class="routemena"  id='1' style='background-color: red;' ></td>
+            <td class="route" id='2'></td>
+            <td class="route" id='3'></td>
+            <td class="route" id='4'></td>
+            <td class="route" id='5' ></td>
+        </tr>
+        <tr>
+            <td class="route" id='51'></td>
+            <td class='colormena' id='101'></td>
+            <td class='colormena' id='102'></td>
+            <td class='colormena'id='103'></td>
+            <td class='colormena'id='104'></td>
+            <td class='colormena'id='105'></td>
+        </tr>
+        <tr>
+            <td class="route" id='50'></td>
+            <td class="route" id='49'> </td>
+            <td class="trano" id='48'></td>
+            <td class="route" id='47'></td>
+            <td class="route" id='46'> </div></td>
+            <td class="route" id='45'></td>
+        </tr>
+    </table>
+    <table border="2" id='tab3'>
+        <tr>
+            <td class="route" id='11'> </td>
+            <td class="route" id='12'></td>
+            <td class="route" id='13'></td>
+        </tr>
+        <tr>
+            <td class="route" id='10'> </td>
+            <td  class='colormavo' id='201'></td>
+            <td class="routemavo" id='14' style='background-color: rgb(251, 255, 0);'></td>
+        </tr>
+        <tr>
+            <td class="trano" id='9' ></td>
+            <td  class='colormavo' id='202'></td>
+            <td class="route" id='15'> </td>
+        </tr>
+        <tr>
+            <td class="route" id='8'></td>
+            <td  class='colormavo' id='203'></td>
+            <td class="route" id='16'></td>
+        </tr>
+        <tr>
+            <td class="route" id='7'> </td>
+            <td  class='colormavo' id='204'></td>
+            <td class="route" id='17'></td>
+        </tr>
+        <tr>
+            <td class="route" id='6'>  </td>
+            <td  class='colormavo' id='205'></td>
+            <td class="route" id='18'></td>
+        </tr>
+        
+    </table>
+    <table border="2" id='tab2'>
+        <tr>
+            <td class="route" id='19'></td>
+            <td class="route" id='20'></td>
+            <td class="route" id='21'></td>
+            <td class="trano" id='22'> </td>
+            <td class="route" id='23'></td>
+            <td class="route" id='24'></td>
+        </tr>
+        <tr>
+            <td  class='colormaintso' id='305'></td>
+            <td  class='colormaintso' id='304'></td>
+            <td  class='colormaintso' id='303'></td>
+            <td  class='colormaintso' id='302'></td>
+            <td  class='colormaintso' id='301'></td>
+            <td class="route" id='25' ></td>
+        </tr>
+        <tr>
+            <td class="route" id='31'></td>
+            <td class="route" id='30'></td>
+            <td class="route" id='29'></td>
+            <td class="route" id='28'></td>
+            <td  class="routemaintso" id='27' style=" background-color: rgb(0, 230, 69);"></td>
+            <td class="route" id='26'></td>
+        </tr>
+    </table>
+    
+    
+    <table border="2" id='tab4'>
+        
+        <tr>
+            <td class="route" id='44'> </td>
+            <td class='colormanga'id='405'></td>
+            <td class="route" id='32'></td>
+        </tr>
+        <tr>
+            <td class="route" id='43'></td>
+            <td class='colormanga'id='404'></td>
+            <td class="route" id='33'></td>
+        </tr>
+        <tr>
+            <td class="route" id='42'></td>
+            <td class='colormanga' id='403'></td>
+            <td class="route" id='34'></td>
+        </tr>
+        <tr>
+            <td class="route" id='41'></td>
+            <td class='colormanga'id='402'></td>
+            <td class="trano" id='35'></td>
+        </tr>
+        <tr>
+            <td class="routemanga" id='40' style='background-color: skyblue'> </td>
+            <td class='colormanga' id='401'></td>
+            <td class="route" id='36'></td>
+        </tr>
+        <tr>
+            <td class="route" id='39'></td>
+            <td class="route" id='38'></td>
+            <td class="route" id='37'></td>
+        </tr>
+    </table>
+    
+    <div id='arrivmena'>
+        
+    </div> 
+     <div id='arrivmanga'>
+        
+    </div> 
+    <div id='arrivmaintso'>
+       
+    </div>
+    <div id='arrivmavo'>
+       
+    </div> 
+    
+    <div id='tranomena' class="rehetra"> 
+        <div class='tranofotsy'>
+          <table border="2">
+              <tr>
+                  <td class='mena1' style='background-color: red;' align=" center"><div></div></td>
+                  <td class='mena1' style='background-color: red;' align=" center"> <div></div></td>
+              </tr>
+              <tr>
+                <td class='mena1' style='background-color: red;' align=" center"><div></div></td>
+                <td  class='mena1' style='background-color: red;' align=" center"><div></div></td>
+            </tr>
+          </table>
+        </div>
+   </div>
+    <div id='tranomanga'class="rehetra">
+        <div class='tranofotsy'>
+            <table border="2">
+                <tr>
+                    <td  class='manga1' style='background-color: skyblue;' align=" center"><div></div></td>
+                    <td  class='manga1' style='background-color: skyblue;' align=" center"><div></div></td>
+                </tr>
+                <tr>
+                  <td class='manga1' style='background-color: skyblue;' align=" center"><div></div></td>
+                  <td  class='manga1' style='background-color: skyblue;' align=" center"><div></div></td>
+              </tr>
+            </table>
+        </div>
+     </div>
+    <div id='tranomavo'class="rehetra"> 
+        <div class='tranofotsy'>
+            <table border="2">
+                <tr>
+                    <td class='mavo1' style='background-color: rgb(251, 255, 0);' align=" center"><div></div></td>
+                    <td class='mavo1' style='background-color: rgb(251, 255, 0);' align=" center"><div></div> </td>
+                </tr>
+                <tr>
+                  <td class='mavo1' style='background-color: rgb(251, 255, 0);' align=" center" ><div></div></td>
+                  <td class='mavo1' style='background-color: rgb(251, 255, 0);' align=" center" ><div></div></td>
+              </tr>
+            </table>
+        </div>
+     </div>
+     
+    <div id='tranomaintso'class="rehetra"> 
+        <div class='tranofotsy'>
+            <table border="2">
+                <tr>
+                    <td class='maintso1' style='background-color: rgb(0, 255, 42); ' align=" center"><div></div></td>
+                    <td  class="maintso1" style='background-color: rgb(0, 255, 42); ' align=" center"><div></div> </td>
+                </tr>
+                <tr>
+                  <td class='maintso1' style='background-color: rgb(0, 255, 42); ' align=" center"><div></div></td>
+                  <td class="maintso1" style='background-color: rgb(0, 255, 42); ' align=" center"><div></div></td>
+              </tr>
+            </table>
+        </div>
+     </div>
+     <div id='liste'>
+         <table>
+             
+         </table>
+         <button id='recom'> <a href="ludo.html"> Recommencer</a> </button>
+          </div>
+     
+    
+     
+     <script src="ludo.js"></script>
+</body>
+</html>

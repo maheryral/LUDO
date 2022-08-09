@@ -1,0 +1,432 @@
+body{
+   background-image: url('joueur/de.png');
+  
+  
+}
+
+.route{
+   width: 15px;
+   height: 20px;
+}
+.trano{
+ background-image: url('joueur/trano.png');
+ background-size: 35px;
+    width: 15px;
+   height: 20px;
+}
+
+#de{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+.imde{
+    border-radius: 15px;
+    width: 100%;
+height: 100%;
+}
+#demena{
+    
+    position:absolute;
+    left:500px;
+    top:50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(119, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+#demavo{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    position:absolute;
+      left:1150px;
+      top:50px
+}
+#demaintso{
+    position:absolute;
+      left:1150px;
+      top:520px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+#demanga{
+    position:absolute;
+    left:500px;
+    top:520px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    border-radius: 20px;
+   
+}
+
+#de img{
+width: 100%;
+height: 100%;
+}
+#arrivmena {
+   
+    width: 0px;
+    height: 0px;
+    border-top:55px solid transparent;
+    border-bottom:55px solid transparent;
+    border-left:55px solid red ;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+}
+#arrivmanga{
+   
+    width: 0px;
+    height: 0px;
+    border-left:55px solid transparent;
+    border-right:55px solid transparent;
+    border-bottom:55px solid rgb(39, 174, 252) ;
+    position: absolute;
+    left: 800px;
+    top: 305px;
+}
+#arrivmaintso {
+   
+    width: 0px;
+    height: 0px;
+    border-top:53px solid transparent;
+    border-bottom:53px solid transparent;
+    border-right:53px solid rgb(0, 255, 0) ;
+    position: absolute;
+    left: 855px;
+    top: 252px;
+}
+#arrivmavo {
+   
+    width: 0px;
+    height: 0px;
+    border-left:55px solid transparent;
+    border-right:55px solid transparent;
+    border-top:55px solid rgb(255, 251, 0) ;
+    position: absolute;
+    left: 800px;
+    top: 250px;
+}
+#tab1{
+    background-color: white;
+    position: absolute;
+    height:110px;
+    width: 225px;
+    top:250px;
+    left: 575px;
+}
+#tab2{
+    background-color: white;
+    position: absolute;
+    height: 110px;
+    width: 225px;
+    top:250px;
+    left: 909px;
+}
+#tab3{
+    background-color: white;
+    position: absolute;
+    height:225px;
+    width: 110px;
+    top:25px;
+    left: 800px;
+}
+#tab4{
+    background-color: white;
+    position: absolute;
+    height:225px;
+    width: 110px;
+    top:359px;
+    left: 800px;
+}
+.mpandresy{
+    width: 100%;
+    height: 100%;
+}
+#tranomena{
+    position: absolute;
+    top:25px;
+    left: 575px;
+    width: 225px;
+    height: 225px;
+    background-color: red;
+}
+#tranomanga{
+    position: absolute;
+    top:359px;
+    left: 575px;
+    width: 225px;
+    height: 225px;
+    background-color: skyblue;
+}
+#tranomaintso{
+    position: absolute;
+    top:359px;
+    left: 909px;
+    width: 225px;
+    height: 225px;
+    background-color: rgb(0, 230, 69);
+}
+#tranomavo{
+    position: absolute;
+    top:25px;
+    left: 909px;
+    width: 225px;
+    height: 225px;
+    background-color: rgb(251, 255, 0);
+}
+.colormena{
+    background-color: red;
+}
+.colormaintso{
+    background-color: rgb(0, 230, 69);
+}
+.colormanga{
+    background-color: skyblue
+}
+.colormavo{
+    background-color: rgb(251, 255, 0);
+}
+.tranofotsy{
+    position: relative;
+    top: 53px;
+    left: 42px;
+    width: 170px;
+    height: 150px;
+    
+}
+.tranofotsy table{
+   
+    
+   background-color: rgb(255, 255, 255);
+   
+    
+}
+.tranofotsy table td {
+   border-radius: 50px;
+    width: 60px; 
+   height: 55px; 
+    
+}
+/* .mena1{
+  width: 50px;  
+  height: 50px;
+} */
+.mena1 div{
+    position: relative;
+    left: 20px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    
+}
+.mavo1 div{
+    position: relative;
+    left: 20px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(255, 230, 0);
+    border-radius: 15px;
+    
+}
+.maintso1 div{
+    position: relative;
+    left: 20px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(102, 255, 0);
+    border-radius: 15px;
+    
+}
+.manga1 div{
+    position: relative;
+    left: 20px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(0, 217, 255);
+    border-radius: 15px;
+    
+}
+.divmena {
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    
+    
+}
+.tongamena{
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+    transform: scale(1.5,1.5);
+    position: relative;
+    top: -20px;
+    left: -53px;
+}
+.tongamanga{
+    position: relative;
+    top:18px;
+    left: -10px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(0, 217, 255);
+    transform: scale(1.5,1.5);
+    border-radius: 15px;
+}
+.tongamavo{
+    position: relative;
+    top:-50px;
+    left: -10px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(238, 255, 0);
+    border-radius: 15px;
+}
+.tongamaintso{
+    position: relative;
+    top: -20px;
+    left: 30px;
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(0, 255, 106);
+    border-radius: 15px;
+}
+#sdfdsdf{
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(255, 0, 0);
+    border-radius: 15px;
+}
+.divmavo {
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(255, 251, 0);
+    border-radius: 15px;
+    
+}
+.divmanga {
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(0, 247, 255);
+    border-radius: 15px;
+    
+}
+.divmaintso{
+    width: 15px;
+    height: 8px;
+    border: 1px solid black;
+    background-color: rgb(123, 255, 0);
+    border-radius: 15px;
+    
+}
+@keyframes cible {
+    from{
+        transform: scale(1.5,1.5);
+    }
+    to{
+       transform: scale(2,2);
+    }
+}
+@keyframes kely {
+    from{
+        transform: scale(1,1);
+    }
+    to{
+       transform: scale(1,1);
+    }
+}
+/* img{
+    width: 13px;
+    height: 17px;
+    transform: scale(1.5,1.5);
+    background-color: transparent;
+} */
+/* #ex{
+   
+    width:0;
+    height: 0;
+    border-bottom: 87px solid red;
+    border-right: 87px solid transparent;
+    border-left: 87px solid transparent;
+} */
+@keyframes pika {
+    from{
+       background-color: 0;
+    }
+    to{
+        background-color: rgba(255, 255, 255, 0.384);
+    }
+}
+#black{
+    background-color: rgb(0, 0, 0);
+    opacity: 60%;
+    width: 1000px;
+    height: 1000px;
+    transform: scale(5,5);
+}
+#liste{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 300px;
+    height: 200px;
+    background-image: url('joueur/de.png');
+    background-size: 50%;
+   transform: scale(2,2);
+   border-radius: 20px;
+   display: none;
+}
+#liste table{
+    position: relative;
+    left: 65px;
+    top: 18px;
+}
+#liste td{
+    font-size: 30px;
+    
+}
+#recom{
+    
+    position: relative;
+    bottom: -25px;
+    border-radius: 15px;
+    background-color: chartreuse;
+}
+#recom a{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+}
